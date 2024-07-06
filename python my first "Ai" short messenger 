@@ -1,0 +1,23 @@
+print("Hello😊")
+
+hello= input("\n")
+print("\nWhat's your name?")
+name= input("\nMy name is: ")
+print(f"\nHow are you?\f{name}")
+
+a= input("\n")
+if(a=="fine"):
+    print("\nGood😊☺️")
+    
+elif(a=="bad"):
+    print("\nWhy?🥺\f Can I help you?")
+    
+
+
+
+range= range(int(input("\n Can you enter your favourite nubmer?: ")))
+
+for k in range:
+    print(k)
+    
+print("\nThat is your favourite number details...")
