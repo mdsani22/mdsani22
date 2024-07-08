@@ -6,11 +6,16 @@ name= input("\nMy name is: ")
 print(f"\nHow are you?\f{name}")
 
 a= input("\n")
-if(a=="fine"):
+b=a.lower()
+if(b=="fine".lower()):
     print("\nGood😊☺️")
     
-elif(a=="bad"):
+elif(b=="bad".lower()):
     print("\nWhy?🥺\f Can I help you?")
+    
+    
+else:
+    print("You question is not correct!")
     
 
 
@@ -21,3 +26,4 @@ for k in range:
     print(k)
     
 print("\nThat is your favourite number details...")
+
